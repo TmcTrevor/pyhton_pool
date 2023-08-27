@@ -1,0 +1,11 @@
+Date
+
+
+(import datetime
+x = datetime.datetime.now();
+2023-08-27 18:46:35.715411
+)
+
+datetime.year, month,day,hour,minute,second,microsecond
+
+datetime can be a constructor  
