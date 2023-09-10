@@ -1,7 +1,30 @@
 Date
 
-
 (import datetime
+
+
+/// ! date
+constructor : datetime.date(2011,12,1)
+tday = datetime.date.today()
+today { year, month, day} => tday.day ...
+tday.weekday() (start from 0)
+tday.isweekday() (start from 1)
+
+
+/// ! timedeltas
+    from datetime import timedelta
+delta = timedelta(
+    days=50,
+    seconds=27,
+    microseconds=10,
+    milliseconds=29000,
+    minutes=5,
+    hours=8,
+    weeks=2
+)
+dayAfter = today + delta;
+
+/// ! datetime
 x = datetime.datetime.now();
 2023-08-27 18:46:35.715411
 )
